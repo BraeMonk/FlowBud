@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlowBudget Pro</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<div class="app">
+  <h1>FlowBudget Pro</h1>
+
+  <section class="panel">
+    <h2>Monthly Income</h2>
+    <input id="income" type="number" placeholder="Enter monthly income">
+  </section>
+
+  <section class="panel">
+    <h2>Recurring Expenses</h2>
+    <div id="recurring-list"></div>
+    <button id="add-recurring">Add Recurring Expense</button>
+  </section>
+
+  <section class="panel">
+    <h2>Savings Goals</h2>
+    <div id="goal-list"></div>
+    <button id="add-goal">Add Goal</button>
+  </section>
+
+  <section class="panel">
+    <h2>Debt Tracking</h2>
+    <div id="debt-list"></div>
+    <button id="add-debt">Add Debt</button>
+  </section>
+
+  <button id="calculate" class="primary">Calculate Budget</button>
+
+  <section class="panel" id="results"></section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body { background:#111; color:#eee; font-family:Arial; margin:0; }
+.app { max-width:700px; margin:20px auto; background:#222; padding:20px; border-radius:12px; }
+.panel { background:#333; padding:15px; margin-top:20px; border-radius:8px; }
+input { width:100%; padding:8px; margin:5px 0; background:#222; border:1px solid #555; color:white; }
+button { background:#444; border:none; color:white; padding:10px; margin-top:10px; width:100%; border-radius:6px; }
+button.primary { background:#4caf50; }
+.item { margin-bottom:10px; }
